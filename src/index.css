@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color:#d9d9e5;
+}
+a{
+    color: unset;
+    text-decoration: none;
+}
+input{
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Navbar component style */
+.navbar{
+    width: 100%;
+    padding: 20px 10px;
+    background-color:MediumSeaGreen;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.navbar h2{
+    border-radius: 5px;
+    width: fit-content;
+    padding: 2px;
+    margin: 2px;
+}
+
+.navbar button{
+    background-color:#ffffff;
+    color:black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.navbar button:hover{
+    background-color:white;
+    color:black;
+}
+
+/* AlbumsList component style */
+.albums-list{
+    width:auto;
+    margin: auto;
+    padding-top: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* List component style */
+.list{
+    width: 310px;
+    height: 200px;
+    background-color:rgb(217, 172, 89);
+    margin-bottom:5px ;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.list:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.list h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+.button-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.update-btn{
+    background-color: MediumSeaGreen;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.update-btn:hover{
+    background-color:rgb(141, 180, 159);
+    color: black;
+}
+.delete-btn{
+    cursor: pointer;
+    border: 0px;
+    padding: 10px 20px;
+    background-color:red;
+    border-radius: 5px;
+    color: white;
+}
+.delete-btn:hover{
+    color:black;
+    background-color:rgb(201, 129, 129);
+}
+
+/* UpdateAlbum component style */
+.update-album{
+    width: 350px;
+    margin: auto;
+    padding-top: 73px;
+    color: white;
+}
+.form-container{
+    background-color:rgb(217, 172, 89);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.inp-container{
+    margin: 10px;
+}
+.form-container button{
+    background-color: MediumSeaGreen;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* addAlbum container style */
+.addalbum-container{
+    color: white;
+    padding-top: 73px;
+    width: 350px;
+    margin: auto;
+}
+.addalbum-form{
+    padding: 10px;
+    background-color:rgb(217, 172, 89);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.addalbum-form button{
+    background-color: MediumSeaGreen;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
